@@ -40,6 +40,10 @@ background-color: white;
     gap: 20px;
     font-size: 12px;
 }
+.elem h2{
+    font-weight:600;
+font-size: 22px;
+}
 .box{
     color: rgb(0, 2, 3);
    padding: 10px 20px;
@@ -47,4 +51,23 @@ background-color: white;
    font-size: 22px;
    background-color: white;
    border-radius: 5px;
+}
+#pbtm{
+    padding: 20px;
+    width:100%;
+    height:calc(100% - 100px);
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(245, 183, 232);
+    border-radius: 50%;
+    font-weight: 600;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(217, 160, 205);
 }
