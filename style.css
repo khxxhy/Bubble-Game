@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+height: 100%;
+width: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(198, 245, 198);
+}
+#panel{
+    overflow:hidden;
+    height: 80%;
+    width:80%;
+    border-radius: 10px;
+background-color: white;
+}
+#ptop{
+    height: 100px;
+    width:100%;
+    background-color: blue;
+}
+.box{
+   padding: 10px;
+   background-color: white;
+   border-radius: 5px;
+}
+dkkeosdeoeod
