@@ -12,10 +12,10 @@ function getNewHit(){
 }
 
 function makeBubble (){
-let clutter = " ";
+var clutter = " ";
 
- for(let i = 1; i<=112; i++){
-    let rn = Math.floor(Math.random()*10);
+ for(var i = 1; i<=112; i++){
+    var rn = Math.floor(Math.random()*10);
  clutter += `<div class="bubble">${rn}</div>`;
 }
 document.querySelector("#pbtm").innerHTML = clutter;
