@@ -44,7 +44,7 @@ document.querySelector("#pbtm").innerHTML = clutter;
             }
         });
 
-        runTimer();
-        makeBubble();
-        getNewHit();
+runTimer();
+makeBubble();
+getNewHit();
         
