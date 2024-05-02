@@ -1,5 +1,5 @@
 var timer = 60;
-var score = 10;
+var score = 0;
 var hitrn = 0;
 
 function increaseScore(){
@@ -12,8 +12,7 @@ function getNewHit(){
 }
 
 function makeBubble (){
-var clutter = " ";
-
+var clutter = "";
  for(var i = 1; i<=112; i++){
     var rn = Math.floor(Math.random()*10);
  clutter += `<div class="bubble">${rn}</div>`;
