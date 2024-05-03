@@ -1,9 +1,9 @@
 var timer = 60;
 var score = 0;
-var hitrn = 0;
+var hitrn = 0; 
 
 function increaseScore(){
-    score += 10;
+    score += 20;
     document.querySelector("#scoreval").textContent = score;
 }
 function getNewHit(){
