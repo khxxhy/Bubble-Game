@@ -3,7 +3,7 @@ var score = 0;
 var hitrn = 0; 
 
 function increaseScore(){
-    score += 20;
+    score += 10;
     document.querySelector("#scoreval").textContent = score;
 }
 function getNewHit(){
